@@ -20,7 +20,6 @@ import android.view.animation.LinearInterpolator;
  * Created by 小牛冲冲冲 on 2016/9/9.
  * Email:zhao_zhaohe@163.com
  *
- * 波浪view 仿百度贴吧加载中
  * （原理图查看app/picture/波浪图原理.png）
  * 参考 ： http://blog.csdn.net/z82367825/article/details/51599245
  */

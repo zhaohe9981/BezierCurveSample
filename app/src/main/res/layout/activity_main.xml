@@ -34,6 +34,25 @@
                 android:layout_marginLeft="100dp"
                 android:background="#cdcdcd"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2.消息提示（拖拽红色圆试试）" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false">
+
+                <com.zohar.beziercurve.MessageCountView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="#cdcdcd"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
 
         </LinearLayout>
     </ScrollView>
