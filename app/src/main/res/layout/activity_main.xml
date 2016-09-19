@@ -39,6 +39,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="2.消息提示（拖拽红色圆试试）" />
+            <Button
+                android:id="@+id/btn_init_msg_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="btnInit"
+                android:text="初始化红色圆"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -46,6 +52,7 @@
                 android:clipChildren="false">
 
                 <com.zohar.beziercurve.MessageCountView
+                    android:id="@+id/view_msg_view"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:background="#cdcdcd"
