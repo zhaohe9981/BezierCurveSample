@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         view_msg_view = (MessageCountView) findViewById(R.id.view_msg_view);
-        initMsgView();
+        btnInit(null);
     }
 
     /**
@@ -24,10 +24,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void btnInit(View view){
-        initMsgView();
-    }
-
-    private void initMsgView(){
         view_msg_view.setMsgCount("333");
     }
+
 }
