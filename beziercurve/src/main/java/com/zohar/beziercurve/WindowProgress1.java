@@ -114,6 +114,7 @@ public class WindowProgress1 extends View {
         }else{
 
             dst.reset();
+//            dst.lineTo(0,0);//如果activity 没有关闭硬件加速，使用这句。
             float x;
             float s = pathLength;
             float y;
